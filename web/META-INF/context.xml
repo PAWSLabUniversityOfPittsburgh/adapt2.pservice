@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context debug="1" reloadable="true">
+	<Realm resourceName="DirectoryRealmDB"
+		className="org.apache.catalina.realm.DataSourceRealm"
+			dataSourceName="jdbc/login"
+			localDataSource="true"
+			digest="md5"
+			roleNameCol="Role"
+			userCredCol="Pass"
+			userNameCol="Login"
+			userRoleTable="seq_role"
+			userTable="ent_user"/>
+
+	<!-- Access to Database -->	
+	<Resource name="jdbc/main"
+		auth="Container"
+		type="javax.sql.DataSource" 
+		username="student" 
+		password="student"
+		driverClassName="com.mysql.jdbc.Driver" 
+		url="jdbc:mysql://localhost/pservice?autoReconnect=true"
+		maxActive="1000" 
+		maxIdle="50"
+		maxWait="15000"
+		removeAbandoned="true" 
+		logAbandoned="true" />
+
+	<Resource name="jdbc/login"
+		auth="Container"
+		type="javax.sql.DataSource" 
+		username="student" 
+		password="student"
+		driverClassName="com.mysql.jdbc.Driver" 
+		url="jdbc:mysql://localhost/portal_test2?autoReconnect=true"
+		maxActive="10" 
+		maxIdle="5"
+		maxWait="1000"
+		removeAbandoned="true" 
+		logAbandoned="true" />
+
+</Context>

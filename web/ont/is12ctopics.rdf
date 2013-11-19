@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf"
+	xml:base="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	
+	
+	<owl:Ontology rdf:about="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf">
+		<dc:creator rdf:resource="http://www.sis.pitt.edu/~paws/ont/users.rdf#michael"/>
+		<rdfs:label>C Topics</rdfs:label>
+		<rdfs:comment>This is a structure of topics for Intorductory C programming course.</rdfs:comment>
+		<dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-16T12:00:00-05:00</dc:date>
+		<dc:available rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-16T12:00:00-05:00</dc:available>
+	</owl:Ontology>
+	
+	
+	<rdfs:Class rdf:about="#Intro">
+		<rdfs:label>7. Introduction</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#PrintingNArithmetic">
+		<rdfs:label>8. Printing and Arithmetic</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#Variables">
+		<rdfs:label>9. Variables</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#SimplePrograms">
+		<rdfs:label>10. Simple Programs</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#SimpleLoops">
+		<rdfs:label>11. Simple Loops</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#LoopsNTables">
+		<rdfs:label>12. Loops and Tables</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#Conditionals">
+		<rdfs:label>13. Conditionals</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#CharacterProcessing">
+		<rdfs:label>14. Character Processing</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#ComplexConditionals">
+		<rdfs:label>15. Complex Conditions</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#ForNSwitch">
+		<rdfs:label>16. For and Switch</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#Arrays">
+		<rdfs:label>17. Arrays</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#Printing">
+		<rdfs:label>18. Functions</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#CharacterArrays">
+		<rdfs:label>19. Character Arrays</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#NestedLoops">
+		<rdfs:label>20. Nested Loops</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#Pointers">
+		<rdfs:label>21. Pointers</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#2DArrays">
+		<rdfs:label>22. Two-Dimensional Arrays</rdfs:label>
+	</rdfs:Class>
+
+	<rdfs:Class rdf:about="#Recursion">
+		<rdfs:label>23. Recursion</rdfs:label>
+	</rdfs:Class>
+
+</rdf:RDF>

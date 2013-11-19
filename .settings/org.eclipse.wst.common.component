@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+<wb-module deploy-name="adapt2.pservice">
+<wb-resource deploy-path="/" source-path="/web"/>
+<wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/adapt2.directory/web/WEB-INF/lib/adapt2-directory.jar">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/paws_core/paws_core">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<property name="context-root" value="adapt2.pservice"/>
+<property name="java-output-path" value="build/classes"/>
+</wb-module>
+</project-modules>

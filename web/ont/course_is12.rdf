@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rss="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+	<rdfs:Class rdf:about="http://www.sis.pitt.edu/~paws/courses/is12-demo">
+		<dc:title>IS0012 Introduction to Programming</dc:title>
+		<dc:description>IS0012 Introduction to Programming course, taught at School of Information Sciences, University of Pittsburgh</dc:description>
+		<dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-10T12:00:00-05:00</dc:date>
+		<dc:available rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-10T12:00:00-05:00</dc:available>
+		<dc:identity>http://www.sis.pitt.edu/~paws/ont/course_is12.rdf</dc:identity>		
+	
+		<dc:relation rdf:resource="http://adapt2.sis.pitt.edu/webex/feed?scope=is12&amp;format=rss1.0"/>
+		<dc:relation rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf" />
+		<dc:relation rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12we2ctopics.rdf" />
+		<dc:relation rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics_sched.rdf" />
+	</rdfs:Class>
+	<rss:channel rdf:about="http://adapt2.sis.pitt.edu/webex/feed?scope=is12&amp;format=rss1.0" />
+<!--	
+	<rdf:Description rdf:about="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf"/>
+
+	<rdf:Description rdf:about="http://www.sis.pitt.edu/~paws/ont/is12we2ctopics.rdf"/>
+
+	<rdf:Description rdf:about="http://www.sis.pitt.edu/~paws/ont/is12ctopics_sched.rdf"/>
+-->
+
+</rdf:RDF> 

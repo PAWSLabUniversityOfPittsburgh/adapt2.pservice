@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="PERSEUS" default="dist" basedir=".">
+	<!-- Imports -->
+	<import file="../ant_global.xml" />
+
+	<!-- Folder variables -->
+	<property name="src" location="src"/>
+	<property name="build" location="build"/>
+	<property name="web" location="web"/>
+	<property name="adapt2-pservice-jar" location="${web}/WEB-INF/lib/adapt2-pservice.jar"/>
+	<property name="paws-core" location="${web}/WEB-INF/lib/paws-core.jar"/>
+	<property name="paws-cbum" location="${web}/WEB-INF/lib/paws-cbum.jar"/>
+	<property name="context_path" value="/pservice"/>
+	<property name="war_file" location="pservice.war"/>
+
+	<target name="clean" description="clean up" >
+		<!-- Delete the ${build} and ${dist} directory trees -->
+		<delete dir="${build}"/>
+		<delete file="${adapt2-pservice-jar}"/>
+	</target>	
+	
+	<target name="init" depends="clean">
+		<!-- Create the build directory structure used by compile -->
+		<mkdir dir="${build}"/>
+	</target>
+
+	<target name="compile" depends="init" description="compile the source " >
+		<!-- Compile the java code from ${src} into ${build} -->
+		<javac srcdir="${src}" destdir="${build}" debug="on"
+			classpath="${catalina_home}/lib/servlet-api.jar;
+				${catalina_home}/lib/jsp-api.jar;
+				${paws-core};
+				${paws-cbum};
+				${web}/WEB-INF/lib/arq.jar;
+				${web}/WEB-INF/lib/jena.jar;
+				${web}/WEB-INF/lib/openrdf-model.jar;
+				${web}/WEB-INF/lib/sesame.jar"
+		/>
+	</target>
+
+	<target name="dist" depends="compile" description="generate the distribution" >
+		<!-- Build KT JAR file -->
+		<jar destfile="${adapt2-pservice-jar}" basedir="${build}"/>
+		<!-- copy to adapt2.pservice -->
+		<copy todir="../kt2/web/WEB-INF/lib/">
+			<fileset file="${adapt2-pservice-jar}"/>
+		</copy>
+	</target>
+
+	<target name="deploy.mac" depends="dist" description="deploy on Mac" >
+		<copy todir="${catalina_home}/webapps/pservice/">
+			<fileset file="${web}/**"/>
+		</copy>
+	</target>
+
+	<target name="war" depends="dist" description="Create WAR file"	>
+		<war destfile="${war_file}" webxml="web/WEB-INF/web.xml">
+		  <fileset dir="web" />
+		  <lib dir="web/WEB-INF/lib" />
+		</war>
+	</target>
+
+	<target name="deploy.loc.mac" description="Install on local mac" depends="war, undeploy.loc.mac">
+		<t_deploy url="${t_manager}" username="${t_username}" password="${t_password}"
+			path="${context_path}" war="${war_file}"/>
+	</target>
+
+	<target name="reload.loc.mac" description="Reload on local mac" depends="war">
+		<t_reload url="${t_manager}" username="${t_username}" password="${t_password}"
+			path="${context_path}"/>
+	</target>
+
+	<target name="undeploy.loc.mac" description="Undeploy on local mac">
+		<t_undeploy url="${t_manager}" username="${t_username}" password="${t_password}"
+			path="${context_path}"/>
+	</target>
+
+</project>

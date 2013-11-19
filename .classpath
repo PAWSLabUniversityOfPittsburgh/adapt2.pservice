@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v6.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/arq.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/concurrent.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/dom4j.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/icu4j_3_4.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/iri.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/jena.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/openrdf-model.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/openrdf-util.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/paws-cbum.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/paws-core.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/rio.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/saxon9.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/sesame.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="/Users/myudelson/Documents/workspace/paws/adapt2.pservice/web/WEB-INF/lib/xml-apis.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

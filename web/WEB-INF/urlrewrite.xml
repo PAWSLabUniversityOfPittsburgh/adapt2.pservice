@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 2.6//EN"
+        "http://tuckey.org/res/dtds/urlrewrite2.6.dtd">
+
+<!--
+    Configuration file for UrlRewriteFilter
+    http://tuckey.org/urlrewrite/
+-->
+<urlrewrite>
+
+	<rule>
+		<note>GET/POST for viewing p-service as a class</note>
+		<condition type="method" next="or">GET</condition>
+		<condition type="method">POST</condition>
+		<from>/service/([a-z_A-Z]+[a-z_\-.A-Z0-9]*)$</from>
+		<to type="forward">/service?service_id=$1</to>
+	</rule>
+	
+	<rule>
+		<note>GET for viewing p-service Editor</note>
+		<condition type="method">GET</condition>
+		<from>/service/([a-z_A-Z]+[a-z_\-.A-Z0-9]*)/edit$</from>
+		<to type="forward">/service-edit?service_id=$1</to>
+	</rule>
+	
+	<rule>
+		<note>GET for viewing/updating p-service instance with configuration</note>
+		<condition type="method" next="or">GET</condition>
+		<condition type="method">POST</condition>
+		<from>/service/([a-z_A-Z]+[a-z_\-.A-Z0-9]*)/conf/([a-z_A-Z]+[a-z_\-.A-Z0-9]*)$</from>
+		<to type="forward">/service-conf?service_id=$1&amp;conf_id=$2</to>
+	</rule>
+
+	<rule>
+		<note>GET for viewing Editor of configuration of p-service </note>
+		<condition type="method">GET</condition>
+		<from>/service/([a-z_A-Z]+[a-z_\-.A-Z0-9]*)/conf/([a-z_A-Z]+[a-z_\-.A-Z0-9]*)/edit$</from>
+		<to type="forward">/service-conf-edit?service_id=$1&amp;conf_id=$2</to>
+	</rule>
+
+	<rule>
+		<note>GET/POST for invoking p-service instance with configuration</note>
+		<condition type="method" next="or">GET</condition>
+		<condition type="method">POST</condition>
+		<from>/service/([a-z_A-Z]+[a-z_\-.A-Z0-9]*)/invoke/([a-z_A-Z]+[a-z_\-.A-Z0-9]*)(\?(.*))?$</from>
+		<to type="forward">/service-conf-invoke?service_id=$1&amp;conf_id=$2&amp;$4</to>
+	</rule>
+
+	<rule>
+		<note>GET/POST for invoking p-service instance with configuration and visualization</note>
+		<condition type="method" next="or">GET</condition>
+		<condition type="method">POST</condition>
+		<from>/service/([a-z_A-Z]+[a-z_\-.A-Z0-9]*)/invoke/([a-z_A-Z]+[a-z_\-.A-Z0-9]*)/vis/([a-z_A-Z]+[a-z_\-.A-Z0-9]*)(\?(.*))?$</from>
+		<to type="forward">/service-conf-invoke?service_id=$1&amp;conf_id=$2&amp;vis_id=$3&amp;$5</to>
+	</rule>
+
+
+     <!--
+
+    INSTALLATION
+
+        in your web.xml add...
+
+        <filter>
+            <filter-name>UrlRewriteFilter</filter-name>
+            <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+            <init-param>
+                <param-name>logLevel</param-name>
+                <param-value>WARN</param-value>
+            </init-param>
+        </filter>
+        <filter-mapping>
+            <filter-name>UrlRewriteFilter</filter-name>
+            <url-pattern>/*</url-pattern>
+        </filter-mapping>
+
+     EXAMPLES
+
+     Redirect one url
+        <rule>
+            <from>/some/old/page.html</from>
+            <to type="redirect">/very/new/page.html</to>
+        </rule>
+
+    Redirect a directory
+        <rule>
+            <from>/some/olddir/(.*)</from>
+            <to type="redirect">/very/newdir/$1</to>
+        </rule>
+
+    Clean a url
+        <rule>
+            <from>/products/([0-9]+)</from>
+            <to>/products/index.jsp?product_id=$1</to>
+        </rule>
+    eg, /products/1234 will be passed on to /products/index.jsp?product_id=1234 without the user noticing.
+
+    Browser detection
+        <rule>
+            <condition name="user-agent">Mozilla/[1-4]</condition>
+            <from>/some/page.html</from>
+            <to>/some/page-for-old-browsers.html</to>
+        </rule>
+    eg, will pass the request for /some/page.html on to /some/page-for-old-browsers.html only for older
+    browsers whose user agent srtings match Mozilla/1, Mozilla/2, Mozilla/3 or Mozilla/4.
+
+    -->
+
+</urlrewrite>
+

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="pservice" version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+>
+	<display-name>ADAPT2 Personalzation Services</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<context-param>
+		<description>URI of PService to be subjected to flood</description>
+		<param-name>flooded_pservice</param-name>
+<!-- 		<param-value>http://localhost:8080/pservice/service/sim-adapt2-social/invoke/sim-adapt2-social</param-value> --> 
+<!--   		<param-value>http://scythian.exp.sis.pitt.edu:8080/pservice/service/sim-adapt2-social/invoke/sim-adapt2-social</param-value>  -->   
+ 		<param-value>http://scythian.exp.sis.pitt.edu:8080/pservice/service/adapt2-topic-qg/invoke/adapt2-topic-qg</param-value>
+	</context-param>
+
+	<context-param>
+		<description>IP of the server being flooded</description>
+		<param-name>flooded_ip</param-name>
+<!-- 		<param-value>http://localhost:8080/pservice/service/sim-adapt2-social/invoke/sim-adapt2-social</param-value> --> 
+<!--   		<param-value>http://scythian.exp.sis.pitt.edu:8080/pservice/service/sim-adapt2-social/invoke/sim-adapt2-social</param-value>  -->   
+ 		<param-value>http://scythian.exp.sis.pitt.edu:8080/pservice/service/adapt2-topic-qg/invoke/adapt2-topic-qg</param-value>
+	</context-param>
+	
+	<context-param>
+		<description>Constant parameters to be passed to the service</description>
+		<param-name>flood_parameters</param-name>
+		<param-value>user_id=sergey&amp;group_id=admins&amp;session_id=flooder&amp;date=empty</param-value>
+<!-- 		<param-value>user_id=myudelson&amp;group_id=200811&amp;session_id=flooder&amp;date=empty</param-value> -->
+	</context-param>
+	
+	<context-param> 
+		<description>summary of flood configuration</description>
+		<param-name>flooding_note</param-name>
+		<!-- JUno1_Social_e3run5req[5,20,50] 
+		<param-value>JUno1_Social_e3run5req50</param-value>-->
+		<!--  JDuo1_Topic_e3run5req[5,10,25]  -->
+		<param-value>JR4_Y9_WrmM10R5_30D160_10</param-value>
+		<!-- 
+		JtstSCntSocWarmM5R10_50D50_1 - (wired) with overloads
+		JtstTCntSocWarmM5R10_50D50_1 - (wired) with overloads
+		JtstACntTopWarmM1R5_30D80_1  - (wireless) with crashes, 1207860143965 to 1207860184671 for threds to finish
+		JtstFCntTopWarmM5R5_30D160_1 - (wired) from 1207928192974 to 1207928305138 for threads to finish, faults while finishing
+		JtstB1CntTopWarmM10R5_30D160_10  - (wired) for series
+		=== Series
+		JtstA2CntSocWarmM10R10_50D50_1
+		... Good Series (Social Service)
+		Apr 9, 2008: A2 (12:00), A4 (13:00), A6 (14:00), A7 (15:00), A8 (16:00), A9 (17:00)
+		... Good Series (Topic Service)
+		Apr 11, 2008: B1 (12:00), B3 (13:00), B4 (14:00), B5 (15:00), B7(16:00), B8(17:00)
+		
+SELECT * FROM pservice.ent_flooder_log f LEFT JOIN pservice.ent_performance_log p ON(f.Token=p.Token)
+LEFT JOIN um2.ent_report_log u ON(f.Token=u.Token)
+WHERE f.Note = 'match5SocWarmM5R5_30D160_10'
+		
+		round 3 prelude
+		Jr3prelude1WrmM5R5_50D50_1
+		Jr3prelude2WrmM5R5_50D50_1
+		Jr3prelude6WrmM5R5_50D50_1 - socat - nano timing
+		Jr3prelude7WrmM5R5_30D160_10 - topic - nano timing
+		
+		April 25, 2008: X4 (13:11)
+		 -->
+	</context-param>
+	
+	<context-param>
+		<description>Minimum size of the request to be flood-sent to PService</description>
+		<param-name>req_size_min</param-name>
+		<param-value>5</param-value><!--  -->
+	</context-param>
+	
+	<context-param>
+		<description>Maximum size of the request to be flood-sent to PService</description>
+		<param-name>req_size_max</param-name>
+		<param-value>30</param-value><!--  -->
+	</context-param>
+	
+	<context-param>
+		<description>Minimal delay of the flood</description>
+		<param-name>delay_min</param-name>
+		<param-value>10</param-value><!--  -->
+	</context-param>
+	
+	<context-param>
+		<description>Maximum delay of the flood</description>
+		<param-name>delay_max</param-name>
+		<param-value>160</param-value><!--  -->
+	</context-param>
+	
+	<context-param>
+		<description>Duration of the load</description>
+		<param-name>epoch</param-name>
+<!-- 		<param-value>1800000</param-value>  30 min -->
+ 		<param-value>600000</param-value>  <!--  10 min -->
+	</context-param>
+	
+
+	<context-param>
+		<description>Size of the request to be flood-sent to PService</description>
+		<param-name>req_size</param-name>
+		<param-value>30</param-value><!--  -->
+	</context-param>
+	
+	<context-param>
+		<description>Number of flood-runs per each delay</description>
+		<param-name>no_runs</param-name>
+		<param-value>5</param-value>
+	</context-param>
+	
+	<context-param>
+		<description>Duration of pause after each run (ms)</description>
+		<param-name>pause_after_run</param-name>
+		<param-value>5000</param-value>
+	</context-param>
+	
+	<context-param>
+		<description>Duration of pause after each delay (ms)</description>
+		<param-name>pause_after_delay</param-name>
+		<param-value>5000</param-value>
+	</context-param>
+	
+	<!-- Access to Database -->	
+	<resource-ref>
+		<res-ref-name>jdbc/main</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+		<res-sharing-scope>Unshareable</res-sharing-scope>
+	</resource-ref>
+	
+	<!-- Context Parameters -->
+	<context-param>
+		<param-name>xslt_filename</param-name>
+		<param-value>rss1to2.xsl</param-value>
+	</context-param>
+	
+	<!-- REST FILTER -->
+	<filter>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<url-pattern>/service/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<url-pattern>/service*</url-pattern>
+	</filter-mapping>
+	
+	<!-- Servlets and JSP -->
+	<servlet>
+		<servlet-name>AllPServices</servlet-name>
+		<servlet-class>edu.pitt.sis.adapt2.pservice.rest.AllPServices</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AllPServices</servlet-name>
+		<url-pattern>/services</url-pattern>
+	</servlet-mapping>	
+
+	<servlet>
+		<servlet-name>PServiceView</servlet-name>
+		<servlet-class>edu.pitt.sis.adapt2.pservice.rest.PServiceView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PServiceView</servlet-name>
+		<url-pattern>/service</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>PServiceEdit</servlet-name>
+		<servlet-class>edu.pitt.sis.adapt2.pservice.rest.PServiceEdit</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PServiceEdit</servlet-name>
+		<url-pattern>/service-edit</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>PServiceConfView</servlet-name>
+		<servlet-class>edu.pitt.sis.adapt2.pservice.rest.PServiceConfView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PServiceConfView</servlet-name>
+		<url-pattern>/service-conf</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>PServiceConfEditor</servlet-name>
+		<servlet-class>edu.pitt.sis.adapt2.pservice.rest.PServiceConfEditor</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PServiceConfEditor</servlet-name>
+		<url-pattern>/service-conf-edit</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>PServiceInvoke</servlet-name>
+		<servlet-class>edu.pitt.sis.adapt2.pservice.rest.PServiceInvoke</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PServiceInvoke</servlet-name>
+		<url-pattern>/service-conf-invoke</url-pattern>
+	</servlet-mapping>	
+
+	<servlet>
+		<servlet-name>jspHomeLoggedIn</servlet-name>
+		<jsp-file>/index.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>jspHomeLoggedIn</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RSS2To1Transformer</servlet-name>
+		<servlet-class>edu.pitt.sis.adapt2.pservice.rest.RSS2To1Transformer</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RSS2To1Transformer</servlet-name>
+		<url-pattern>/rss2to1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PServiceFlooderThreaded</servlet-name>
+		<servlet-class>edu.pitt.sis.adapt2.pservice.flooder.PServiceFlooderThreaded</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PServiceFlooderThreaded</servlet-name>
+		<url-pattern>/flooder_old</url-pattern>
+	</servlet-mapping>	
+
+	<servlet>
+		<servlet-name>PServiceContinuousFlooderThreaded</servlet-name>
+		<servlet-class>edu.pitt.sis.adapt2.pservice.flooder.PServiceContinuousFlooderThreaded</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PServiceContinuousFlooderThreaded</servlet-name>
+		<url-pattern>/flooder</url-pattern>
+	</servlet-mapping>	
+
+	<servlet>
+		<servlet-name>RSS4Flooder</servlet-name>
+		<servlet-class>edu.pitt.sis.adapt2.pservice.flooder.RSS4Flooder</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RSS4Flooder</servlet-name>
+		<url-pattern>/flooder_rss</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PServiceStartupLoader</servlet-name>
+		<servlet-class>edu.pitt.sis.adapt2.pservice.rest.PServiceStartupLoader</servlet-class>
+<!-- 		<load-on-startup>2</load-on-startup> -->
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AnnotationExplorationAJAXRobotRecorder</servlet-name>
+		<servlet-class>edu.pitt.sis.adapt2.pservice.rest.AnnotationExplorationAJAXRobotRecorder</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AnnotationExplorationAJAXRobotRecorder</servlet-name>
+		<url-pattern>/annotexplore</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>GetIPServlet</servlet-name>
+		<servlet-class>GetIPServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetIPServlet</servlet-name>
+		<url-pattern>/getip</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EmbedInvoke</servlet-name>
+		<servlet-class>edu.pitt.sis.adapt2.pservice.embed.EmbedInvoke</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>TestServlet</display-name>
+		<servlet-name>TestServlet</servlet-name>
+		<servlet-class>
+		edu.pitt.sis.adapt2.pservice.TestServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EmbedInvoke</servlet-name>
+		<url-pattern>/embed</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TestServlet</servlet-name>
+		<url-pattern>/TestServlet</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Security constraints -->
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+	<security-role>
+		<description>Administrator</description>
+		<role-name>admin</role-name>
+	</security-role>
+	
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>ADAPT2 PServices</web-resource-name>
+			<url-pattern>/service/*</url-pattern>
+			<url-pattern>/services*</url-pattern>
+			<url-pattern>/services/*</url-pattern>
+			<url-pattern>/home</url-pattern>
+			<http-method>GET</http-method>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>admin</role-name>
+		</auth-constraint>
+	</security-constraint>	
+	
+	<login-config>
+		<auth-method>FORM</auth-method>
+		<realm-name>DirectoryRealmDB</realm-name>
+		<form-login-config>
+			<form-login-page>/login.jsp</form-login-page>
+			<form-error-page>/login.jsp?relogin=1</form-error-page>
+		</form-login-config>
+	</login-config> 
+	
+</web-app>

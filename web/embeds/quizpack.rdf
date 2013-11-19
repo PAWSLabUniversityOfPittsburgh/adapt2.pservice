@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/">
+	<channel rdf:about="http://adapt2.sis.pitt.edu/pservice/embeds/quizpack.rdf">
+		<title rdf:parseType="Literal">Collection of QuizPACK Problems</title>
+		<link>http://adapt2.sis.pitt.edu/pservice/embeds/quizpack.rdf</link>
+		<description></description>
+		<items>
+			<rdf:Seq>
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array3ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array3ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array3ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array3ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression1ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression1ex5" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression2ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression2ex5" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array2ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array3ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array3ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array3ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array3ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array3ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array3ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array3ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing1ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing3ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing3ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing3ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing3ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional1ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional1ex5" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional2ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional2ex5" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#compound_assignment1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#compound_assignment1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#compound_assignment1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#conditional_operator1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#conditional_operator1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#conditional_operator1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#constant1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#constant1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#constant1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#constant1ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#constant2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#constant2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#constant2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do1ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do1ex5" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do2ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do2ex5" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#for1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#for1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#for1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#for2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#for2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#for2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#for2ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function1ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function3ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function3ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function3ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else1ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else2ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#increment_decrement1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#increment_decrement1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#increment_decrement1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_expression1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_expression1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_expression1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_operator1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_operator1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_operator1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_operator1ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_operator1ex5" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#nested_loop1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#nested_loop1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#nested_loop1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#nested_loop1ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#nested_loop1ex5" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer1ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer2ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer2ex5" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer3ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer3ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer3ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer3ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer3ex5" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing2ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing2ex5" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#switch1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#switch1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#switch1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable2ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable2ex5" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable3ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable3ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable3ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable3ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable3ex5" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while2ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while2ex5" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc1ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc1ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc1ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc1ex4" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc2ex1" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc2ex2" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc2ex3" />
+				<rdf:li rdf:resource="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc2ex4" />
+			</rdf:Seq>
+		</items>
+	</channel>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:2dimensional_array1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/2dimensional_array1/presenterasp.cgi?sub=1&amp;act=2dimensional_array1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:2dimensional_array1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/2dimensional_array1/presenterasp.cgi?sub=2&amp;act=2dimensional_array1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:2dimensional_array1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/2dimensional_array1/presenterasp.cgi?sub=3&amp;act=2dimensional_array1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:2dimensional_array2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/2dimensional_array2/presenterasp.cgi?sub=1&amp;act=2dimensional_array2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:2dimensional_array2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/2dimensional_array2/presenterasp.cgi?sub=2&amp;act=2dimensional_array2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:2dimensional_array2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/2dimensional_array2/presenterasp.cgi?sub=3&amp;act=2dimensional_array2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array3ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:2dimensional_array3 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/2dimensional_array3/presenterasp.cgi?sub=1&amp;act=2dimensional_array3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array3ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:2dimensional_array3 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/2dimensional_array3/presenterasp.cgi?sub=2&amp;act=2dimensional_array3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array3ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:2dimensional_array3 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/2dimensional_array3/presenterasp.cgi?sub=3&amp;act=2dimensional_array3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#2dimensional_array3ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:2dimensional_array3 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/2dimensional_array3/presenterasp.cgi?sub=4&amp;act=2dimensional_array3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:arithmetic_expression1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/arithmetic_expression1/presenterasp.cgi?sub=1&amp;act=arithmetic_expression1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:arithmetic_expression1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/arithmetic_expression1/presenterasp.cgi?sub=2&amp;act=arithmetic_expression1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:arithmetic_expression1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/arithmetic_expression1/presenterasp.cgi?sub=3&amp;act=arithmetic_expression1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression1ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:arithmetic_expression1 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/arithmetic_expression1/presenterasp.cgi?sub=4&amp;act=arithmetic_expression1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression1ex5">
+		<title rdf:parseType="Literal">QuizPack Quiz:arithmetic_expression1 question#4</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/arithmetic_expression1/presenterasp.cgi?sub=5&amp;act=arithmetic_expression1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:arithmetic_expression2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/arithmetic_expression2/presenterasp.cgi?sub=1&amp;act=arithmetic_expression2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:arithmetic_expression2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/arithmetic_expression2/presenterasp.cgi?sub=2&amp;act=arithmetic_expression2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:arithmetic_expression2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/arithmetic_expression2/presenterasp.cgi?sub=3&amp;act=arithmetic_expression2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression2ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:arithmetic_expression2 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/arithmetic_expression2/presenterasp.cgi?sub=4&amp;act=arithmetic_expression2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#arithmetic_expression2ex5">
+		<title rdf:parseType="Literal">QuizPack Quiz:arithmetic_expression2 question#4</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/arithmetic_expression2/presenterasp.cgi?sub=5&amp;act=arithmetic_expression2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:array1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/array1/presenterasp.cgi?sub=1&amp;act=array1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:array1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/array1/presenterasp.cgi?sub=2&amp;act=array1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:array1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/array1/presenterasp.cgi?sub=3&amp;act=array1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:array2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/array2/presenterasp.cgi?sub=1&amp;act=array2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:array2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/array2/presenterasp.cgi?sub=2&amp;act=array2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:array2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/array2/presenterasp.cgi?sub=3&amp;act=array2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array2ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:array2 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/array2/presenterasp.cgi?sub=4&amp;act=array2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array3ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:array3 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/array3/presenterasp.cgi?sub=1&amp;act=array3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array3ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:array3 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/array3/presenterasp.cgi?sub=2&amp;act=array3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#array3ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:array3 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/array3/presenterasp.cgi?sub=3&amp;act=array3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_array1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_array1/presenterasp.cgi?sub=1&amp;act=character_array1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_array1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_array1/presenterasp.cgi?sub=2&amp;act=character_array1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_array1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_array1/presenterasp.cgi?sub=3&amp;act=character_array1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_array2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_array2/presenterasp.cgi?sub=1&amp;act=character_array2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_array2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_array2/presenterasp.cgi?sub=2&amp;act=character_array2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_array2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_array2/presenterasp.cgi?sub=3&amp;act=character_array2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array3ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_array3 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_array3/presenterasp.cgi?sub=1&amp;act=character_array3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array3ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_array3 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_array3/presenterasp.cgi?sub=2&amp;act=character_array3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array3ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_array3 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_array3/presenterasp.cgi?sub=3&amp;act=character_array3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_array3ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_array3 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_array3/presenterasp.cgi?sub=4&amp;act=character_array3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_processing1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_processing1/presenterasp.cgi?sub=1&amp;act=character_processing1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_processing1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_processing1/presenterasp.cgi?sub=2&amp;act=character_processing1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_processing1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_processing1/presenterasp.cgi?sub=3&amp;act=character_processing1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing1ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_processing1 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_processing1/presenterasp.cgi?sub=4&amp;act=character_processing1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_processing2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_processing2/presenterasp.cgi?sub=1&amp;act=character_processing2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_processing2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_processing2/presenterasp.cgi?sub=2&amp;act=character_processing2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_processing2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_processing2/presenterasp.cgi?sub=3&amp;act=character_processing2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing3ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_processing3 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_processing3/presenterasp.cgi?sub=1&amp;act=character_processing3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing3ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_processing3 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_processing3/presenterasp.cgi?sub=2&amp;act=character_processing3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing3ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_processing3 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_processing3/presenterasp.cgi?sub=3&amp;act=character_processing3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#character_processing3ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:character_processing3 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/character_processing3/presenterasp.cgi?sub=4&amp;act=character_processing3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:complex_conditional1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/complex_conditional1/presenterasp.cgi?sub=1&amp;act=complex_conditional1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:complex_conditional1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/complex_conditional1/presenterasp.cgi?sub=2&amp;act=complex_conditional1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:complex_conditional1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/complex_conditional1/presenterasp.cgi?sub=3&amp;act=complex_conditional1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional1ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:complex_conditional1 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/complex_conditional1/presenterasp.cgi?sub=4&amp;act=complex_conditional1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional1ex5">
+		<title rdf:parseType="Literal">QuizPack Quiz:complex_conditional1 question#4</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/complex_conditional1/presenterasp.cgi?sub=5&amp;act=complex_conditional1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:complex_conditional2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/complex_conditional2/presenterasp.cgi?sub=1&amp;act=complex_conditional2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:complex_conditional2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/complex_conditional2/presenterasp.cgi?sub=2&amp;act=complex_conditional2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:complex_conditional2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/complex_conditional2/presenterasp.cgi?sub=3&amp;act=complex_conditional2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional2ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:complex_conditional2 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/complex_conditional2/presenterasp.cgi?sub=4&amp;act=complex_conditional2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#complex_conditional2ex5">
+		<title rdf:parseType="Literal">QuizPack Quiz:complex_conditional2 question#4</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/complex_conditional2/presenterasp.cgi?sub=5&amp;act=complex_conditional2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#compound_assignment1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:compound_assignment1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/compound_assignment1/presenterasp.cgi?sub=1&amp;act=compound_assignment1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#compound_assignment1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:compound_assignment1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/compound_assignment1/presenterasp.cgi?sub=2&amp;act=compound_assignment1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#compound_assignment1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:compound_assignment1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/compound_assignment1/presenterasp.cgi?sub=3&amp;act=compound_assignment1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#conditional_operator1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:conditional_operator1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/conditional_operator1/presenterasp.cgi?sub=1&amp;act=conditional_operator1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#conditional_operator1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:conditional_operator1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/conditional_operator1/presenterasp.cgi?sub=2&amp;act=conditional_operator1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#conditional_operator1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:conditional_operator1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/conditional_operator1/presenterasp.cgi?sub=3&amp;act=conditional_operator1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#constant1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:constant1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/constant1/presenterasp.cgi?sub=1&amp;act=constant1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#constant1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:constant1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/constant1/presenterasp.cgi?sub=2&amp;act=constant1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#constant1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:constant1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/constant1/presenterasp.cgi?sub=3&amp;act=constant1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#constant1ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:constant1 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/constant1/presenterasp.cgi?sub=4&amp;act=constant1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#constant2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:constant2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/constant2/presenterasp.cgi?sub=1&amp;act=constant2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#constant2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:constant2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/constant2/presenterasp.cgi?sub=2&amp;act=constant2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#constant2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:constant2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/constant2/presenterasp.cgi?sub=3&amp;act=constant2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:do1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/do1/presenterasp.cgi?sub=1&amp;act=do1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:do1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/do1/presenterasp.cgi?sub=2&amp;act=do1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:do1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/do1/presenterasp.cgi?sub=3&amp;act=do1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do1ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:do1 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/do1/presenterasp.cgi?sub=4&amp;act=do1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do1ex5">
+		<title rdf:parseType="Literal">QuizPack Quiz:do1 question#4</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/do1/presenterasp.cgi?sub=5&amp;act=do1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:do2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/do2/presenterasp.cgi?sub=1&amp;act=do2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:do2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/do2/presenterasp.cgi?sub=2&amp;act=do2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:do2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/do2/presenterasp.cgi?sub=3&amp;act=do2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do2ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:do2 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/do2/presenterasp.cgi?sub=4&amp;act=do2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#do2ex5">
+		<title rdf:parseType="Literal">QuizPack Quiz:do2 question#4</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/do2/presenterasp.cgi?sub=5&amp;act=do2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#for1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:for1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/for1/presenterasp.cgi?sub=1&amp;act=for1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#for1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:for1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/for1/presenterasp.cgi?sub=2&amp;act=for1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#for1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:for1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/for1/presenterasp.cgi?sub=3&amp;act=for1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#for2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:for2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/for2/presenterasp.cgi?sub=1&amp;act=for2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#for2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:for2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/for2/presenterasp.cgi?sub=2&amp;act=for2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#for2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:for2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/for2/presenterasp.cgi?sub=3&amp;act=for2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#for2ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:for2 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/for2/presenterasp.cgi?sub=4&amp;act=for2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:function1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/function1/presenterasp.cgi?sub=1&amp;act=function1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:function1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/function1/presenterasp.cgi?sub=2&amp;act=function1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:function1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/function1/presenterasp.cgi?sub=3&amp;act=function1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function1ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:function1 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/function1/presenterasp.cgi?sub=4&amp;act=function1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:function2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/function2/presenterasp.cgi?sub=1&amp;act=function2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:function2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/function2/presenterasp.cgi?sub=2&amp;act=function2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:function2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/function2/presenterasp.cgi?sub=3&amp;act=function2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function3ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:function3 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/function3/presenterasp.cgi?sub=1&amp;act=function3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function3ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:function3 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/function3/presenterasp.cgi?sub=2&amp;act=function3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#function3ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:function3 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/function3/presenterasp.cgi?sub=3&amp;act=function3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:if_else1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/if_else1/presenterasp.cgi?sub=1&amp;act=if_else1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:if_else1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/if_else1/presenterasp.cgi?sub=2&amp;act=if_else1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:if_else1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/if_else1/presenterasp.cgi?sub=3&amp;act=if_else1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else1ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:if_else1 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/if_else1/presenterasp.cgi?sub=4&amp;act=if_else1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:if_else2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/if_else2/presenterasp.cgi?sub=1&amp;act=if_else2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:if_else2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/if_else2/presenterasp.cgi?sub=2&amp;act=if_else2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:if_else2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/if_else2/presenterasp.cgi?sub=3&amp;act=if_else2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#if_else2ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:if_else2 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/if_else2/presenterasp.cgi?sub=4&amp;act=if_else2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#increment_decrement1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:increment_decrement1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/increment_decrement1/presenterasp.cgi?sub=1&amp;act=increment_decrement1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#increment_decrement1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:increment_decrement1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/increment_decrement1/presenterasp.cgi?sub=2&amp;act=increment_decrement1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#increment_decrement1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:increment_decrement1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/increment_decrement1/presenterasp.cgi?sub=3&amp;act=increment_decrement1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_expression1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:logical_expression1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/logical_expression1/presenterasp.cgi?sub=1&amp;act=logical_expression1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_expression1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:logical_expression1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/logical_expression1/presenterasp.cgi?sub=2&amp;act=logical_expression1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_expression1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:logical_expression1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/logical_expression1/presenterasp.cgi?sub=3&amp;act=logical_expression1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_operator1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:logical_operator1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/logical_operator1/presenterasp.cgi?sub=1&amp;act=logical_operator1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_operator1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:logical_operator1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/logical_operator1/presenterasp.cgi?sub=2&amp;act=logical_operator1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_operator1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:logical_operator1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/logical_operator1/presenterasp.cgi?sub=3&amp;act=logical_operator1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_operator1ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:logical_operator1 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/logical_operator1/presenterasp.cgi?sub=4&amp;act=logical_operator1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#logical_operator1ex5">
+		<title rdf:parseType="Literal">QuizPack Quiz:logical_operator1 question#4</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/logical_operator1/presenterasp.cgi?sub=5&amp;act=logical_operator1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#nested_loop1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:nested_loop1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/nested_loop1/presenterasp.cgi?sub=1&amp;act=nested_loop1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#nested_loop1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:nested_loop1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/nested_loop1/presenterasp.cgi?sub=2&amp;act=nested_loop1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#nested_loop1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:nested_loop1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/nested_loop1/presenterasp.cgi?sub=3&amp;act=nested_loop1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#nested_loop1ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:nested_loop1 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/nested_loop1/presenterasp.cgi?sub=4&amp;act=nested_loop1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#nested_loop1ex5">
+		<title rdf:parseType="Literal">QuizPack Quiz:nested_loop1 question#4</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/nested_loop1/presenterasp.cgi?sub=5&amp;act=nested_loop1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:pointer1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/pointer1/presenterasp.cgi?sub=1&amp;act=pointer1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:pointer1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/pointer1/presenterasp.cgi?sub=2&amp;act=pointer1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:pointer1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/pointer1/presenterasp.cgi?sub=3&amp;act=pointer1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer1ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:pointer1 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/pointer1/presenterasp.cgi?sub=4&amp;act=pointer1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:pointer2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/pointer2/presenterasp.cgi?sub=1&amp;act=pointer2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:pointer2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/pointer2/presenterasp.cgi?sub=2&amp;act=pointer2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:pointer2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/pointer2/presenterasp.cgi?sub=3&amp;act=pointer2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer2ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:pointer2 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/pointer2/presenterasp.cgi?sub=4&amp;act=pointer2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer2ex5">
+		<title rdf:parseType="Literal">QuizPack Quiz:pointer2 question#4</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/pointer2/presenterasp.cgi?sub=5&amp;act=pointer2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer3ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:pointer3 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/pointer3/presenterasp.cgi?sub=1&amp;act=pointer3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer3ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:pointer3 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/pointer3/presenterasp.cgi?sub=2&amp;act=pointer3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer3ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:pointer3 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/pointer3/presenterasp.cgi?sub=3&amp;act=pointer3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer3ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:pointer3 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/pointer3/presenterasp.cgi?sub=4&amp;act=pointer3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#pointer3ex5">
+		<title rdf:parseType="Literal">QuizPack Quiz:pointer3 question#4</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/pointer3/presenterasp.cgi?sub=5&amp;act=pointer3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:printing1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/printing1/presenterasp.cgi?sub=1&amp;act=printing1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:printing1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/printing1/presenterasp.cgi?sub=2&amp;act=printing1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:printing1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/printing1/presenterasp.cgi?sub=3&amp;act=printing1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:printing2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/printing2/presenterasp.cgi?sub=1&amp;act=printing2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:printing2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/printing2/presenterasp.cgi?sub=2&amp;act=printing2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:printing2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/printing2/presenterasp.cgi?sub=3&amp;act=printing2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing2ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:printing2 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/printing2/presenterasp.cgi?sub=4&amp;act=printing2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#printing2ex5">
+		<title rdf:parseType="Literal">QuizPack Quiz:printing2 question#4</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/printing2/presenterasp.cgi?sub=5&amp;act=printing2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#switch1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:switch1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/switch1/presenterasp.cgi?sub=1&amp;act=switch1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#switch1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:switch1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/switch1/presenterasp.cgi?sub=2&amp;act=switch1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#switch1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:switch1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/switch1/presenterasp.cgi?sub=3&amp;act=switch1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:variable1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/variable1/presenterasp.cgi?sub=1&amp;act=variable1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:variable1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/variable1/presenterasp.cgi?sub=2&amp;act=variable1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:variable1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/variable1/presenterasp.cgi?sub=3&amp;act=variable1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:variable2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/variable2/presenterasp.cgi?sub=1&amp;act=variable2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:variable2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/variable2/presenterasp.cgi?sub=2&amp;act=variable2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:variable2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/variable2/presenterasp.cgi?sub=3&amp;act=variable2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable2ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:variable2 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/variable2/presenterasp.cgi?sub=4&amp;act=variable2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable2ex5">
+		<title rdf:parseType="Literal">QuizPack Quiz:variable2 question#4</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/variable2/presenterasp.cgi?sub=5&amp;act=variable2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable3ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:variable3 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/variable3/presenterasp.cgi?sub=1&amp;act=variable3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable3ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:variable3 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/variable3/presenterasp.cgi?sub=2&amp;act=variable3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable3ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:variable3 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/variable3/presenterasp.cgi?sub=3&amp;act=variable3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable3ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:variable3 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/variable3/presenterasp.cgi?sub=4&amp;act=variable3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#variable3ex5">
+		<title rdf:parseType="Literal">QuizPack Quiz:variable3 question#4</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/variable3/presenterasp.cgi?sub=5&amp;act=variable3&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:while1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/while1/presenterasp.cgi?sub=1&amp;act=while1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:while1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/while1/presenterasp.cgi?sub=2&amp;act=while1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:while1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/while1/presenterasp.cgi?sub=3&amp;act=while1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:while2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/while2/presenterasp.cgi?sub=1&amp;act=while2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:while2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/while2/presenterasp.cgi?sub=2&amp;act=while2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:while2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/while2/presenterasp.cgi?sub=3&amp;act=while2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while2ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:while2 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/while2/presenterasp.cgi?sub=4&amp;act=while2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#while2ex5">
+		<title rdf:parseType="Literal">QuizPack Quiz:while2 question#4</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/while2/presenterasp.cgi?sub=5&amp;act=while2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc1ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:globvar_simplefunc1 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/globvar_simplefunc1/presenterasp.cgi?sub=1&amp;act=globvar_simplefunc1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc1ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:globvar_simplefunc1 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/globvar_simplefunc1/presenterasp.cgi?sub=2&amp;act=globvar_simplefunc1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc1ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:globvar_simplefunc1 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/globvar_simplefunc1/presenterasp.cgi?sub=3&amp;act=globvar_simplefunc1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc1ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:globvar_simplefunc1 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/globvar_simplefunc1/presenterasp.cgi?sub=4&amp;act=globvar_simplefunc1&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc2ex1">
+		<title rdf:parseType="Literal">QuizPack Quiz:globvar_simplefunc2 question#0</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/globvar_simplefunc2/presenterasp.cgi?sub=1&amp;act=globvar_simplefunc2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc2ex2">
+		<title rdf:parseType="Literal">QuizPack Quiz:globvar_simplefunc2 question#1</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/globvar_simplefunc2/presenterasp.cgi?sub=2&amp;act=globvar_simplefunc2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc2ex3">
+		<title rdf:parseType="Literal">QuizPack Quiz:globvar_simplefunc2 question#2</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/globvar_simplefunc2/presenterasp.cgi?sub=3&amp;act=globvar_simplefunc2&amp;app=2</link>
+	</item>
+	<item rdf:about="http://www.sis.pitt.edu/~paws/ont/quizpack.rdf#globvar_simplefunc2ex4">
+		<title rdf:parseType="Literal">QuizPack Quiz:globvar_simplefunc2 question#3</title>
+		<link>http://www2.sis.pitt.edu/~ir/qpplus/quizzes/globvar_simplefunc2/presenterasp.cgi?sub=4&amp;act=globvar_simplefunc2&amp;app=2</link>
+	</item>
+</rdf:RDF>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	
+	
+	<owl:Ontology rdf:about="http://www.sis.pitt.edu/~paws/ont/is12we2ctopics.rdf">
+		<dc:creator rdf:resource="http://www.sis.pitt.edu/~paws/ont/users.rdf#michael"/>
+		<rdfs:label>WebEx to C Topics Mapping</rdfs:label>
+		<rdfs:comment>Assignment of WebEx Code Dissections of the IS0012 Course to CTopics</rdfs:comment>
+		<dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-16T12:00:00-05:00</dc:date>
+		<dc:available rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-16T12:00:00-05:00</dc:available>
+	</owl:Ontology>
+	
+	
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#better_kiosk.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#SimplePrograms" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#capital.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#SimplePrograms" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#fahr_input.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#SimplePrograms" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#capitalyears.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#SimpleLoops" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#countdown1.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#SimpleLoops" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#countdown2.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#SimpleLoops" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#factorial.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#SimpleLoops" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#accumulator.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#LoopsNTables" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#apples_kids.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#LoopsNTables" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#capitaltable.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#LoopsNTables" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#f2c_table.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#LoopsNTables" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#nicer_f2c_table.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#LoopsNTables" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#max1.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Conditionals" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#max2.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Conditionals" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#max3.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Conditionals" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#maxloop.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Conditionals" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#rate2.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Conditionals" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#better_copycat.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#CharacterProcessing" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#char_codes.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#CharacterProcessing" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#copycat.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#CharacterProcessing" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#count_char.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#CharacterProcessing" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#line_count.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#CharacterProcessing" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#encrypt.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#ComplexConditionals" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#qpa.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#ComplexConditionals" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#qpa_and.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#ComplexConditionals" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#qpa_or.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#ComplexConditionals" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#rate3.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#ComplexConditionals" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#abcounting.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#ForNSwitch" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#abcounting_case.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#ForNSwitch" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#av_line_for.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#ForNSwitch" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#av_line_while.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#ForNSwitch" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#f2c_for.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#ForNSwitch" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#nondigits.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#ForNSwitch" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#wc.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#ForNSwitch" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#arrayio.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Arrays" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#arrayiofor.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Arrays" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#arraymax.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Arrays" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#arraymin.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Arrays" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#arraysum.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Arrays" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#babyweighting.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Arrays" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#digcount.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Printing" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#power.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Printing" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#sumarfunc.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Printing" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#insummax.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#CharacterArrays" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#palindrome.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#CharacterArrays" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#parampass.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#CharacterArrays" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#longestline.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#NestedLoops" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#patternsearch.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#NestedLoops" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#starchart.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#NestedLoops" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#str2int.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#NestedLoops" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#goodswap.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Pointers" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#strcomp.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Pointers" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#battleship.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#2DArrays" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#betterbattle.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#2DArrays" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#printback.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#2DArrays" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#yearday.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#2DArrays" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#recfactorial.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Recursion" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#recpower.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Recursion" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#helloworld.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Intro" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#calculating1.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#PrintingNArithmetic" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#calculating2.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#PrintingNArithmetic" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#printing.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#PrintingNArithmetic" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#printing1.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#PrintingNArithmetic" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#printing2.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#PrintingNArithmetic" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#exchange_kiosk.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Variables" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://localhost:8080/webex/webex.rdf#variables.c">
+		<dc:subject rdf:resource="http://www.sis.pitt.edu/~paws/ont/is12ctopics.rdf#Variables" />
+	</rdf:Description>
+
+
+</rdf:RDF>
